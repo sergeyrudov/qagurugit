@@ -16,7 +16,7 @@ import static io.qameta.allure.Allure.step;
 public class SearchTest extends BaseTest {
     @Test
     @DisplayName("Поиск страницы selenide на Google.com")
-    public void search_selenide_in_google() {
+    public void searchSelenideInGoogle() {
         parameter("Строка поиска","selenide");
         step("Открытие страницы google.com", () -> {
             open("https://google.com");

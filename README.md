@@ -10,7 +10,7 @@
         step("Открытие страницы yandex.ru", () -> {
             open("https://yandex.ru");
         });
-        step("Поиск selenide в google", () -> {
+        step("Поиск selenide в yandex", () -> {
             $("#text").val("selenide").pressEnter();});
         step("Проверка результатов поиска", () -> {
             $$(".serp-item").shouldHave(sizeGreaterThan(1));

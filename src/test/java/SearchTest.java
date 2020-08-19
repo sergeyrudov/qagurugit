@@ -32,3 +32,4 @@ public class SearchTest extends BaseTest {
     }
 
 }
+//add one more yandex search test
